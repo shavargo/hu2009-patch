@@ -1,0 +1,395 @@
+"os" {
+	# Minimum of 95 series upwards
+	"min_win_9x_major":			"4"
+	
+	# Narrow minumum to 98 series upwards
+	"min_win_9x_minor":			"10"
+	
+	# Minumum of 2000 series, NTx.x are not allowed
+	"min_win_nt_major":			"5"
+	"min_win_nt_minor":			"0"
+
+	# Look for minimum of ServicePack 0 on 2000/XP (i.e. SP is not required)
+	"min_win_ntsp_major":			"0"
+}
+
+"directx" {
+	# DX Version 8
+	"min_version":				"2048"
+}
+
+"ratings" {
+	"quality_count":			"3"
+	"use_custom":				"1"
+}
+
+"cpu_ratings" {
+	"0":					"0"
+	"1":					"1400"
+	"2":					"2000"
+}
+
+"mem_ratings" {
+	"0":					"0"
+	"1":					"256"
+	"2":					"512"
+}
+
+"opengl" {
+	"minimum_display_mode":				"640x480x16x0"
+
+	"recommended_display_modes" {
+		"0":					"1280x720x32x0"
+		"1":					"1600x900x32x0"
+		"2":					"1920x1080x32x0"
+	}
+
+	"card_ratings" {
+		"0" {
+			"3Dfx"
+			"GLINT 500TX"
+			"GLINT R3 PT"
+			"GLINT R4"
+			"Fire GL1"
+			"GLINT MX"
+			"ELSA ERAZOR III"
+			"E"
+			"GDI Generic"
+			"RIVA 128"
+			"Cobalt"
+			"Generic"
+			"Fire GL 8x00"
+			"Fire GL8800"
+			"Fire GL2"
+			"Fire GL4"
+			"MOBILITY FIREGL"
+			"RagePRO"
+			"RADEON"
+			"RADEON VE"
+			"RADEON 7000"
+			"RADEON 7200"
+			"RADEON 7500"
+			"RAGE 128"
+			"RV250"
+			"Mesa Windows"
+			"Mesa GLX Indirect"
+			"NVIDIA TNT2"
+			"PowerVR KYRO"
+			"Intel 810/810E"
+			"Intel 830M"
+			"Intel 845G"
+			"Intel Brookdale-G"
+			"Intel Montara-GM"
+			"Intel Solano"
+			"Intel Springdale-G"
+			"Intel81X"
+			"GLZICD"
+			"wcgdrv"
+			"Matrox G200"
+			"Matrox G400"
+			"Matrox ICD for Parhelia"
+			"Direct3D"
+			"NV17"
+			"RIVA TNT"
+			"RIVA TNT2"
+			"CLE266"
+			"KM400/KN400"
+			"DeltaChrome"
+			"ProSavage"
+			"Savage2000"
+			"SuperSavage"
+			"GLDirect"
+			"GLDirect 4.0"
+			"GLDirect 5.0"
+			"GLDirect Pixel Perfect VR"
+			"GLDirect Xabre"
+			"300"
+			"530"
+			"630"
+			"650"
+			"Compatible VGA"
+			"Xabre VGA"
+			"Blade 3D"
+			"Blade XP"
+			"Volari Family"
+			"MOBILITY RADEON 7500"
+		}
+
+		"1" {
+			"Quadro"
+			"Quadro DCC"
+			"Quadro NVS"
+			"Quadro2 MXR"
+			"Quadro2 Pro"
+			"GeForce 256"
+			"GeForce2 GTS"
+			"GeForce2 MX"
+			"GeForce4"
+
+			"RADEON 8500"
+			"RADEON 9000"
+			"RADEON 9100"
+			"RADEON 9200"
+			"RADEON 9500"
+
+			"MOBILITY RADEON 8500"
+			"MOBILITY RADEON 9000"
+			"MOBILITY RADEON 9000"
+			"MOBILITY RADEON 9100"
+			"MOBILITY RADEON 9200"
+			"MOBILITY RADEON 9500"
+
+			"GeForce3"
+			"GeForce4 Ti"
+			"GeForce FX"
+		}
+
+		"2" {
+			"NVIDIA"
+			"Fire GL X1"
+
+			"MOBILITY RADEON 9600"
+			"MOBILITY RADEON 9700"
+			"MOBILITY RADEON 9800"
+			"MOBILITY RADEON X"
+
+			"RADEON IGP 340M DDR"
+			"RADEON 9600"
+			"RADEON 9700"
+			"RADEON 9800"
+			"RADEON X"
+
+			"GeForce FX Go56"
+			"GeForce FX Go57"
+			"GeForce FX Go58"
+			"GeForce FX Go59"
+
+			"GeForce FX 56"
+			"GeForce FX 57"
+			"GeForce FX 58"
+			"GeForce FX 59"
+
+			"GeForce6"
+			"GeForce 6"
+			"GeForce Go 6"
+			"GeForce7"
+			"GeForce 7"
+			"GeForce Go 7"
+			"GeForce8"
+			"GeForce 8"
+			"GeForce Go 8"
+			"GeForce9"
+			"GeForce 9"
+			"GeForce Go 9"
+
+			"Quadro FX"
+			"Quadro4"
+			"Quadro 4"
+
+			"VP500SE - GL2"
+			"Wildcat VP560 - GL2"
+			"Wildcat VP870 - GL2"
+			"Wildcat VP970 - GL2"
+			# hu2009-modern-gpu-list
+			"GeForce RTX"
+			"GeForce GTX"
+			"Quadro RTX"
+			"Radeon RX"
+			"Radeon HD"
+			"Intel(R) Arc"
+			"Intel(R) Iris"
+			"Intel(R) UHD"
+		}
+	}
+
+	"problematic_drivers" {
+		#list_driver_versions_here
+	}
+	
+	"problematic_cards" {
+
+	}
+
+	"problematic_drivers_with_cards" {
+		#"driver_here" {
+		#	"card_name_here"
+		#}
+	}
+
+	"path" {
+		"hw_query_ids" {
+			"GL_MAX_TEXTURES_UNITS_ARB":		"0x84E2"
+		}
+
+		"hw_queries" {
+			"texenv_combine" {
+				"type":				"presence"
+				"query_id":			"GL_ARB_texture_env_combine"
+			}
+
+			"texenv_crossbar" {
+				"type":				"presence"
+				"query_id":			"GL_ARB_texture_env_crossbar"
+			}
+
+			"sampler_count" {
+				"type":				"int"
+				"query_id":			"GL_MAX_TEXTURES_UNITS_ARB"
+			}
+
+			"texobj_cubemap" {
+				"type":				"presence"
+				"query_id":			"GL_ARB_texture_cube_map"
+			}
+
+			"nv_register_combiners" {
+				"type":				"presence"
+				"query_id":			"GL_NV_register_combiners"
+			}
+
+			"nv_register_combiners2" {
+				"type":				"presence"
+				"query_id":			"GL_NV_register_combiners2"
+			}
+
+			"nv_texture_shader" {
+				"type":				"presence"
+				"query_id":			"GL_NV_texture_shader"
+			}
+
+			"nv_texture_shader2" {
+				"type":				"presence"
+				"query_id":			"GL_NV_texture_shader2"
+			}
+
+			"nv_vertex_program" {
+				"type":				"presence"
+				"query_id":			"GL_NV_vertex_program"
+			}
+
+			"nv_vertex_program2" {
+				"type":				"presence"
+				"query_id":			"GL_NV_vertex_program2"
+			}
+
+			"nv_vertex_program2_option" {
+				"type":				"presence"
+				"query_id":			"GL_NV_vertex_program2_option"
+			}
+
+			"nv_vertex_program3" {
+				"type":				"presence"
+				"query_id":			"GL_NV_vertex_program3"
+			}
+
+			"nv_fragment_program" {
+				"type":				"presence"
+				"query_id":			"GL_NV_fragment_program"
+			}
+
+			"nv_fragment_program_option" {
+				"type":				"presence"
+				"query_id":			"GL_NV_fragment_program_option"
+			}
+
+			"nv_fragment_program2" {
+				"type":				"presence"
+				"query_id":			"GL_NV_fragment_program2"
+			}
+
+			"ati_fragment_shader" {
+				"type":				"presence"
+				"query_id":			"GL_ATI_fragment_shader"
+			}
+
+			"arb_vertex_program" {
+				"type":				"presence"
+				"query_id":			"GL_ARB_vertex_program"
+			}
+
+			"arb_fragment_program" {
+				"type":				"presence"
+				"query_id":			"GL_ARB_fragment_program"
+			}
+		}
+
+		"render_paths" {
+			"GL1X" {
+				"path_id":			"1"
+				"description_id":		"500"
+
+				"queries" {
+				}
+
+                                "fallback":                     "1"
+			}
+			
+			"ARB" {
+				"path_id":			"3"
+				"description_id":		"502"
+
+				"queries" {
+					"texobj_cubemap"
+					"texenv_combine"
+					"texenv_crossbar"
+					"sampler_count":	"3"
+				}
+			}
+
+			"NV1X" {
+				"path_id":			"6"
+				"description_id":		"520"
+				
+				"queries" {
+					"texobj_cubemap"
+					"nv_register_combiners"
+				}
+			}
+
+			"NV2X" {
+				"path_id":			"8"
+				"description_id":		"522"
+				
+				"queries" {
+					"texobj_cubemap"
+					"nv_register_combiners2"
+					"arb_vertex_program"
+					"nv_texture_shader"
+				}
+			}
+
+			"R2XX" {
+				"path_id":			"14"
+				"description_id":		"560"
+
+				"queries" {
+					"texobj_cubemap"
+					"arb_vertex_program"
+					"ati_fragment_shader"
+				}
+			}
+
+			"ARB2" {
+				"path_id":			"5"
+				"description_id":		"504"
+
+				"queries" {
+					"texobj_cubemap"
+					"arb_vertex_program"
+					"arb_fragment_program"
+				}
+			}
+
+			"NV3X" {
+				"path_id":			"10"
+				"description_id":		"524"
+
+				"queries" {
+					"texobj_cubemap"
+					"arb_vertex_program"
+					"nv_fragment_program"
+				}
+			}
+		}
+	}
+}
