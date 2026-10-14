@@ -1,6 +1,6 @@
 Hunting Unlimited 2009 — modern PC changes
 
-These files make a stock install launch on a current Windows PC and pick a high graphics setting on a modern GPU. They do not add DLSS.
+These files make a stock install launch on a current Windows PC and pick a high graphics setting on a modern GPU. This does not add DLSS, I tried, it is designed too terribly.
 
 What the script does
 - Lets hu2009.exe and prism3d.exe use 4 GB of memory (large-address-aware flag).
